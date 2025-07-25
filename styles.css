@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #fdf6f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+#products, #cart {
+  width: 45%;
+  padding: 20px;
+  border: 2px solid #dcbcbc;
+  border-radius: 8px;
+  background: white;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #e6b400;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c69700;
+}
